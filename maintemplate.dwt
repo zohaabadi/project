@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="stylesheet" type="text/css" href="font-awesome.css">
+</head>
+
+<body>
+	<main>
+        <nav>
+        	<ul>
+            	<li>
+                	<img src="logo/logo.jpg" width="65" height="60" alt=""/>
+                </li>
+            	<li>
+                	<a href="index.html">صفحه اصلی</a>
+                </li>
+               <li>
+                	<a href="news.html">اخبار</a>
+                </li>
+                <li>
+                	<a href="download.html">دانلود</a>
+                    <ul>
+                    	<li>
+                			<a href="movies.html">فیلم</a>
+                		</li>
+               			<li>
+                			<a href="series.html">سریال</a>
+                		</li>
+                        <li>
+                			<a href="music.html">موسیقی متن</a>
+                		</li>
+               			<li>
+                			<a href="gallery.html">گالری عکس</a>
+                		</li>
+                    </ul>
+                </li>
+                <li>
+                	<a href="login.html">ورود</a>
+                </li>
+                <li>
+                	<a href="register.html">ثبت نام</a>
+                </li>
+           </ul>
+         	<div class="search-box">
+				<form method="get">
+                <span class="fa fa-search"></span>
+				<input class="search-input" type="txtsearch" placeholder="search" value="search" maxlength="125" />
+				<input class="search-submit" type="txtsubmit" placeholder="submit" value="submit" />
+				</form>
+			</div>
+           
+        </nav>
+        <!-- TemplateBeginEditable name="EditRegion3" -->
+        <article>
+        
+        </article>
+        <!-- TemplateEndEditable -->
+        <footer>
+        	<div id="wrapper">
+            	<div id="sidebar">
+                	<div id="didgah">
+                    	<form method="post">
+                			<table>
+                            	<tr>
+                                	<th>دیدگاه شما</th>
+                                </tr>
+                    			<tr>
+                    				<td>
+                            			<label>نام شما </label>
+                            		</td>
+                            		<td>
+                            			<input type="text" maxlength="20" name="txtName" id="txtName" />
+                            		</td>
+                    			</tr>
+                    			<tr>
+                    				<td>
+                            			<label>ایمیل شما </label>
+                            		</td>
+                            		<td>
+                            			<span class="fa fa-address-book"></span>
+                            			<input type="email" name="txtEmail" placeholder="test@example.com" required id="txtEmail" />
+                            		</td>
+                    			</tr>
+                                <tr>
+                                	<td>
+                                    	<label>نظر شما</label>	
+                                    </td>
+                                    <td>
+                                    	<input type="text" placeholder="نظر خود را در این قسمت بنویسید" />
+                                    </td>
+                                </tr>
+                                <tr>
+                    				<td>
+                            		</td>
+                            		<td>
+                            			<input type="submit" value="ارسال دیدگاه" />
+                            		</td>
+                    			</tr>
+                    		</table>
+               			</form>
+                   </div>
+                </div>
+                <div id="leftbar">
+                	<div id="film">
+                    	<h1>جدیدترین فیلم ها</h1>
+                        <ul>
+                        	<li>
+                            	<a href="movies.html">دانلود فیلم Wind River 2017</a>
+                            </li>
+                            <li>
+                            	<a href="movies.html">دانلود فیلم The Villainess 2017</a>
+                            </li>
+                            <li>
+                            	<a href="movies.html">دانلود فیلم Good Time 2017</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="clear:both"></div>
+            </div>
+            <hr>
+            تمامی حقوق این سایت متعلق به جدیدترینها بوده و کپی برداری از آن پیگرد قانونی دارد
+            <img src="icon/facebook-farsgraphic-150x150.png" alt=""/>
+            <img src="icon/instagram-farsgraphic-150x150.png" alt=""/>
+            <img src="icon/telegram-farsgraphic-150x150.png" alt=""/>
+            <img src="icon/Twitter-150x150.png" alt=""/>
+        </footer>
+    </main>
+</body>
+</html>
